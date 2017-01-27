@@ -13,11 +13,11 @@
 			</div>
 			<nav class="main-nav">
 				<ul>
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li class="nav-item"><a href="#">Информация</a></li>
+					<li class="nav-item"><a href="#">Новости</a></li>
+					<li class="nav-item"><a href="#">Прайс-лист</a></li>
+					<li class="nav-item"><a href="#">Магазин</a></li>
+					<li class="nav-item"><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="user-block">
@@ -26,44 +26,57 @@
 		</header>
 
 		<main>
-			<header class="page-header">
+			<div class="page-header">
 				<h1 class="page-title">Набор для путешествий &laquo;Baxter of California&raquo;</h1>
 				<nav class="breadcrumbs">
 					<ul>
-						<li><a href="index.html">Главная</a></li>
-						<li><a href="#">Магазин</a></li>
-						<li><a href="#">Средства для ухода</a></li>
-						<li>Набор для путешествий &laquo;Baxter of California&raquo;</li>
+						<li class="breadcrumbs-item"><a href="index.html">Главная</a></li>
+						<li class="breadcrumbs-item"><a href="#">Магазин</a></li>
+						<li class="breadcrumbs-item"><a href="#">Средства для ухода</a></li>
+						<li class="breadcrumbs-item"><a>Набор для путешествий &laquo;Baxter of California&raquo;</a></li>
 					</ul>
 				</nav>
-			</header>
-
-			<div class="gallery">
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
 			</div>
 
-			<div class="item-information">
-				<span class="item-availability">Есть в наличии</span>
-				<span class="item-article">Артикул: dexter-ae</span>
-				<p>
-					Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-				</p>
-				<span class="price">2 900 руб.</span>
-				<a class="btn" href="#">Купить</a>
-			</div>
+			<div class="main-content">
+				<div class="gallery">
+					<div class="main-image">
+						<img src="">
+					</div>
+					<ul class="preview-list">
+						<li class="preview-item">
+							<a href="#"><img src=""></a>
+						</li>
+						<li class="preview-item">
+							<a href="#"><img src=""></a>
+						</li>
+						<li class="preview-item">
+							<a href="#"><img src=""></a>
+						</li>
+					</ul>
+				</div>
 
-			<div class="item-content">
-				<span>В набор входят:</span>
-				<ul>
-					<li>Средство для умывания (50 мл)</li>
-					<li>Увлажняющий крем (50 мл)</li>
-					<li>Крем для бритья (50 мл)</li>
-					<li>Крем после бритья, шампунь (50 мл)</li>
-					<li>Удобная кожаная косметичка</li>
-				</ul>
+				<div class="item-information">
+					<div class="information-header">
+						<div class="item-availability">Есть в наличии</div>
+						<div class="item-article">Артикул: dexter-ae</div>
+					</div>
+					<p class="item-description">
+						Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+					</p>
+					<div class="item-purchase">
+						<span class="price">2 900 руб.</span>
+						<a class="btn" href="#">Купить</a>
+					</div>
+					<div class="content-title">В набор входят:</div>
+					<ul class="content-list">
+						<li class="content-item">Средство для умывания (50 мл)</li>
+						<li class="content-item">Увлажняющий крем (50 мл)</li>
+						<li class="content-item">Крем для бритья (50 мл)</li>
+						<li class="content-item">Крем после бритья, шампунь (50 мл)</li>
+						<li class="content-item">Удобная кожаная косметичка</li>
+					</ul>
+				</div>
 			</div>
 		</main>
 
@@ -82,7 +95,7 @@
 			</div>
 			<div class="footer-copyright">
 				<p>Разработано:</p>
-				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+				<a class="btn" href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
 			</div>
 		</footer>
 	</body>
