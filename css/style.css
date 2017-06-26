@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "PT Sans Narrow Bold";
+  src:
+    local("PT Sans Narrow Bold"),
+    local("PTSans-NarrowBold"),
+    url("../fonts/ptsansnarrowbold.woff2") format("woff2"),
+    url("../fonts/ptsansnarrowbold.woff") format("woff");
+}
+
 body,
 h1,
 h2,
