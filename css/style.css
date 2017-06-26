@@ -7,17 +7,6 @@
     url("../fonts/ptsansnarrowbold.woff") format("woff");
 }
 
-body,
-h1,
-h2,
-h3,
-ul,
-li,
-p {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-style: normal;
 	font-weight: normal;
